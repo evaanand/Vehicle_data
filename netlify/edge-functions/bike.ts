@@ -1026,5 +1026,5 @@ const vehicle=[
   }
 ]
 export default async (request: Request, context: Context) => {
-  return context.bike(vehicle);
+  return context.json(vehicle);
 };
